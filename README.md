@@ -23,9 +23,15 @@ pip install -r requirements.txt
 
 Additionally, for running the notebooks ```qwen2.ipynb``` and ```yesno_llama3.ipynb```, once has to install additional packages related to Unsloth implementation. For the detailed instructions, we link to the authors' page: https://github.com/unslothai/unsloth/tree/main?tab=readme-ov-file#-installation-instructions.
 Running 
-```
-pip install -r requirements-unsloth.txt
-```
+- ```pip install "unsloth[cu118-ampere-torch230] @ git+https://github.com/unslothai/unsloth.git" --upgrade```
+
+- ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 --upgrade```
+
+- ```pip uninstall flash-attn```
+
+- ```pip install scikit-learn```
+
+- ```pip install matplotlib```
 with cuda 11.8 and pytorch 2.1 will be able to reproduce our results, on https://www.runpod.io/, with a RTX 4000 Ada. 
 
 One has to potentially edit the filepaths to the datasets used in the notebooks in order to run the notebooks locally.
