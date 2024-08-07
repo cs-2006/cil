@@ -28,10 +28,7 @@ Running
 - ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 --upgrade```
 
 - ```pip uninstall flash-attn```
-
-- ```pip install scikit-learn```
-
-- ```pip install matplotlib```
+  
 with cuda 11.8 and pytorch 2.1 will be able to reproduce our results, on https://www.runpod.io/, with a RTX 4000 Ada. 
 
 One has to potentially edit the filepaths to the datasets used in the notebooks in order to run the notebooks locally.
