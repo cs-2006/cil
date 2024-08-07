@@ -1,6 +1,6 @@
 # Computational Intelligence Lab 2024 - Tweet sentiment classification
 
-This file describes the submitted code and provides the instructions on how to run the experiments run by our group.
+This file describes the submitted code and provides the instructions on how to run the experiments run by our group. The data used can be downloaded from the project website. 
 
 ## File description
 
