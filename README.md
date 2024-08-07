@@ -22,7 +22,11 @@ pip install -r requirements.txt
 ```
 
 Additionally, for running the notebooks ```qwen2.ipynb``` and ```yesno_llama3.ipynb```, once has to install additional packages related to Unsloth implementation. For the detailed instructions, we link to the authors' page: https://github.com/unslothai/unsloth/tree/main?tab=readme-ov-file#-installation-instructions.
-
+For us, running 
+```
+pip install -r requirements-unsloth.txt
+```
+worked. 
 Otherwise, one has to potentially edit the filepaths to the datasets used in the notebooks in order to run the notebooks locally.
 
 Afterwards, one should be able to run the notebooks locally and reproduce our results.
