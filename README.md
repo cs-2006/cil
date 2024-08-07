@@ -26,7 +26,7 @@ For us, running
 ```
 pip install -r requirements-unsloth.txt
 ```
-worked. 
+with cuda 11.8 and pytorch 2.1 worked. 
 Otherwise, one has to potentially edit the filepaths to the datasets used in the notebooks in order to run the notebooks locally.
 
 Afterwards, one should be able to run the notebooks locally and reproduce our results.
